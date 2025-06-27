@@ -1,5 +1,5 @@
 import os, msvcrt
-from funciones_prueba import *
+from funciones_compra import *
 menu = '''TOTEM AUTOATENCIÓN RESERVA STRIKE
 1.- Reservar zapatillas
 2.- Buscar zapatillas reservadas.
