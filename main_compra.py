@@ -1,5 +1,5 @@
 import os, msvcrt
-from funciones_compra import *
+from funciones_prueba import *
 menu = '''TOTEM AUTOATENCIÓN RESERVA STRIKE
 1.- Reservar zapatillas
 2.- Buscar zapatillas reservadas.
@@ -13,11 +13,13 @@ while True:
     os.system('cls')
 
     if opc == "1":
-        comprar_entrada()
+        reservar_producto("Zapatillas Strike", 1)
+        mostrar_stock()
     elif opc == "2":
-        pass
+        mostrar_reservas()
+        mostrar_stock
     elif opc == "3":
-        pass
+        cancelar_reserva("Zapatillas Strike", 1)
     elif opc == "4":
         print("Gracias por visitar el sitio web!")
         break
